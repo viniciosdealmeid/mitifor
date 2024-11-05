@@ -1,0 +1,122 @@
+header {
+	background: #000000;
+}
+
+#banner {
+	width:15%;
+	image-resolution: 100%;
+	margin: auto;
+	display: block;
+}
+
+.principal{
+	background: black;
+	padding: 10px;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 24px;
+	text-decoration: none;
+	margin: auto;
+	display: block;
+}
+
+.titulo-principal {
+	text-align: center;
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 30px;
+	padding: 20px 0;
+	
+}
+.titulo-principal2 {
+	text-align: center;
+	text-transform: uppercase;
+	color: #f3eeee;
+	font-weight: bold;
+	font-size: 24px;
+	padding: 20px 0;
+	width: 70%;          /* Largura da área do texto */
+    margin: 20px auto;    /* Centraliza a div */
+
+}
+
+.titulo-centralizado {
+	text-align: justify;
+	color: #f3eeee;
+	font-weight: bold;
+	font-size: 24px;
+	padding: 20px 0;
+	width: 70%;          /* Largura da área do texto */
+    margin: 20px auto;    /* Centraliza a div */
+    
+    
+}
+
+#intro {
+	padding-right: 20px;
+	width: 1000px;
+	margin: auto;
+	display: block;
+}
+
+p {
+	text-align: center;
+}
+
+#missao {
+	font-size: 20px
+}
+
+em strong {
+	color: #FF0000;
+}
+
+.navegacao {
+	background: white;
+	padding: 10px;
+}
+
+
+.menu li {
+	display: inline-block;
+	text-align: center;
+	width: 25%;
+	margin: 0 4.0%;
+	padding: 20px 30px;
+	box-sizing: border-box;
+	border-color: #000000;
+	border-width: 5px;
+	border-style: solid;
+}
+
+.menu {
+	width: 900px;
+	margin: 0 auto;
+	padding: 20px 0;
+	
+}
+
+.menu h3 {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+
+p {
+	animation-duration: 6s;
+	animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+	from {
+	  margin-left: 50%;
+	  width: 100%;
+	}
+  
+	to {
+	  margin-left: 15%;
+	  width: 70%;
+	}
+  }

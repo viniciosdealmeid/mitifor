@@ -1,0 +1,67 @@
+:root{
+    --cor-fundo: #439be9 ;
+    --cor-principal: #040505 ;
+    --cor-secundaria: #2537c4; 
+    --cor-destaque: #2BDEFD;
+    --cor-texto: #fefeff;
+
+}
+
+body {
+    background-image: url('eng1.jpg');
+            background-size: cover; /* Ajusta a imagem para cobrir a tela */
+            background-repeat: no-repeat; /* Impede que a imagem se repita */
+            background-attachment: fixed; /* Mantém a imagem fixa ao rolar a página */
+            background-position: center; /* Centraliza a imagem */color: var(--cor-texto);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0.5em;
+}
+
+.caixa-principal{
+    background-color: var(--cor-principal);
+    width: 95%;
+    max-width: 1020px;
+    font-size: 18px;
+    text-align: justify;
+    padding: 40px;
+    margin: 0.5em;
+}
+
+h1{
+    color: var(--cor-destaque);
+}
+
+button {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-texto);
+    border: none;
+    border-radius: 25px;
+    padding: 25px;
+    transition: background-color 0.3s;
+    text-align: center;
+    
+    
+}
+
+button:hover{
+    background-color: var(--cor-destaque);
+    color: var(--cor-principal);
+}
+
+.divbtn {
+    margin:1.5em;
+}
+
+.btn {
+    width: 150px;
+    height: 75px;
+    vertical-align: middle;
+    border:solid 3px rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: bold;
+
+
+}
